@@ -10,13 +10,16 @@
 		data-sap-ui-theme='sap_bluecrystal'
 		data-sap-ui-libs='sap.m'
 		data-sap-ui-compatversion='edge'
+		data-sap-ui-resourceroots='{
+			"sap.ui.demo.wt": "./view/"
+		}'
 		data-sap-ui-preload='async'>
 	</script>
 
 	<script>
 		sap.ui.getCore().attachInit(function () {
-			new sap.m.Text({
-				text: "Hello World"
+			new sap.ui.xmlview({
+				viewName: "sap.ui.demo.wt.HelloWorld"
 			}).placeAt("content");
 		});
 	</script>
