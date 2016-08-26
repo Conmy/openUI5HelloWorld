@@ -1,1 +1,2 @@
-resources/*
+WebContent/resources/*
+node_modules/*
