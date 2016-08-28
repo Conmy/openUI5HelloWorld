@@ -1,2 +1,9 @@
+# Ignore SAP resources - this is a space saver.
 WebContent/resources/*
+
+# Ignore npm and grunt files
 node_modules/*
+
+# Ignore any Webstorm files
+.idea/*
+
