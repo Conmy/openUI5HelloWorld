@@ -73,9 +73,7 @@ module.exports = function (grunt) {
                 }
             }
         }
-
     });
-
 
     // load provided tasks
     grunt.loadNpmTasks("grunt-open");
