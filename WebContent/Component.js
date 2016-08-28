@@ -7,7 +7,7 @@ sap.ui.define([
     return UIComponent.extend("sap.ui.demo.wt.Component", {
 
         metadata : {
-            rootView : "sap.ui.demo.wt.view.HelloWorld"
+            manifest : "json"
         },
 
         init : function () {
