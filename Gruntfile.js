@@ -8,7 +8,12 @@ module.exports = function (grunt) {
                 options: {
                     livereload: "<%= connect.options.livereload %>"
                 },
-                files: ["WebContent/index.html", "WebContent/manifest.json", "WebContent/**/*.js", "WebContent/**/*.xml", "!node_modules/**"]
+                files: ["WebContent/index.html"
+                    , "WebContent/manifest.json"
+                    , "WebContent/**/*.js"
+                    , "WebContent/**/*.xml"
+                    , "WebContent/**/*.properties"
+                    , "!node_modules/**"]
             }
         },
 
