@@ -11,7 +11,7 @@
 		data-sap-ui-libs='sap.m'
 		data-sap-ui-compatversion='edge'
 		data-sap-ui-resourceroots='{
-			"sap.ui.demo.wt": "./view/"
+			"sap.ui.demo.wt": "./"
 		}'
 		data-sap-ui-preload='async'>
 	</script>
@@ -19,7 +19,7 @@
 	<script>
 		sap.ui.getCore().attachInit(function () {
 			new sap.ui.xmlview({
-				viewName: "sap.ui.demo.wt.HelloWorld"
+				viewName: "sap.ui.demo.wt.view.HelloWorld"
 			}).placeAt("content");
 		});
 	</script>
